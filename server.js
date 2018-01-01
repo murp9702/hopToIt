@@ -40,6 +40,6 @@ app.get('/api', function(req, res) {
   })
 })
 
-app.listen(8080, function() {
-  console.log('The app is running on 8080');
+app.listen(4000, function() {
+  console.log('The app is running on 4000');
 })
