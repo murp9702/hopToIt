@@ -40,6 +40,6 @@ app.get('/api', function(req, res) {
   })
 })
 
-app.listen(4000, function() {
-  console.log('The app is running on 4000');
+app.listen(4000, '192.241.210.97', function() {
+  console.log('The app is running on 192.241.210.97:4000');
 })
